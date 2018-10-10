@@ -1,0 +1,18 @@
+
+
+
+def readFile():
+	dataList = []
+	with open('DUMP.rtf','r') as f:
+    for line in f:
+        for word in line.split():
+           print(word)
+
+	return dataList
+
+
+
+def main():
+	dataList = readFile()
+
+main()

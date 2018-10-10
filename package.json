@@ -1,0 +1,16 @@
+{
+  "name": "stock",
+  "version": "1.0.0",
+  "description": "",
+  "main": "downloadData.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "google-finance": "^0.1.11",
+    "yahoo-finance": "^0.3.5",
+    "yahoo-finance-data": "^3.2.0"
+  }
+}
